@@ -1,6 +1,8 @@
 @font-face {
-    font-family: "SomarSans";
-    src: url(/fonts/SomarSans-Regular.ttf);
+    font-family: somar sans;
+    src: url(/fonts/SomarSans-Bold.ttf);
+    src: url(/fonts/SomarSans-Medium.ttf);
+
 }
 
 
@@ -12,7 +14,7 @@
 body {
     direction: rtl;
 
-    font-family: "somar sans", "SomarSans", sans-serif;
+    font-family: somar sans, sans-serif;
     color: #64748b;
     font-size: 18px;
     line-height: 1.4em;
@@ -173,10 +175,11 @@ html {
     background-image: linear-gradient(123deg, #1e293b 24%, #0d9488 65%);
     line-height: 1.6em;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    
     font-size: 3.5rem;
     font-weight: 700;
     letter-spacing: -2px;
+    color: transparent;
 }
 
 #small-text {
@@ -357,7 +360,7 @@ html {
     font-weight: 700;
     background-image: linear-gradient(123deg, #1e293b 24%, #0d9488 65%);
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
     max-width: 550px;
 }
 
@@ -416,7 +419,7 @@ html {
     font-weight: 700;
     letter-spacing: -.04em;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
     margin: 0 0 20px;
     font-size: 3.5rem;
 }
@@ -792,7 +795,7 @@ html {
     font-weight: 700;
     letter-spacing: -.04em;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
     margin: 0 0 20px;
     font-size: 3.5rem;
     max-width: 1270px;
